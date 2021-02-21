@@ -1,4 +1,5 @@
 # Hunt for the Art!
+!()[https://github.com/ryan-lam/Hunt-for-the-Art/blob/main/Huntforart_logo.png]
 
 ## Inspiration
 We were inspired by the idea that the pandemic has made many of us over reliant on technology. We wanted our project to create interactions between the real world and people and reward them for those interactions. We also wanted to create a project that would encourage physical activity and social interactions
