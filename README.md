@@ -28,8 +28,4 @@ We compiled a database of the different simple tasks that we wanted to include. 
 - Allow users to edit/input their own tasks
 
 ## Demo Video
-
-## Built By:
-- Ryan Lam
-- Jax Wang
-- Ming Zhang
+[Hunt for the Art - Demo Video]{https://youtu.be/neMNC7yN4cE)
