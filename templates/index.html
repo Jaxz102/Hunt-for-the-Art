@@ -404,6 +404,7 @@
             </div>
         </div>
             <div class="side">
+                <img src="../static/Huntforart_logo.png" style="width: 60%; margin-left: 19%; margin-top: 30px;">
                 <h2 class="mt-5 fs-1 text-center">Task</h2>
                 <p id = "description" class="text-center fs-3">{{  description  }}</p>
                 <form action="/" method="post" name="name"> <!--action="/" method="post" name="name"-->
@@ -423,16 +424,16 @@
                 var desc = document.getElementById("description");
                 var colouruse = document.getElementById("secret");
                 
-                items = [["do 10 jumping jacks", "find a dog", "find a watch", "find an old coin", "budget your money", "do a quick jog", "take a deep breathe", "eat some snacks", "find a green vegetable"], 
- ["draw a stickman", "listen to music", "watch a streamer", "search for a Leonardo DiCaprio movie", "play a game of chess", "talk with your family", "play a family game", "find some cards", "solve a rubik's cube"],
- ["learn a new skill", "experiment with different spices", "drink a cup of water", "write down your dreams", "eat a piece of chocolate", "make a toothpick figure", "read a book", "find a log", "make a snowball"],
- ["read about igloos", "watch an NBA game", "message a friend", "get some sun light", "jump up and down 5 times", "join a type racer game", "write a cursive letter", "what is 11 + 16", "find a nutrition label"],
- ["complete a jigsaw puzzle", "play a brain teaser", "write down gift ideas", "learn about wellness", "wash your hands", "do something creative", "watch a PewDiePie YouTube video", "message your shoulders", "relax your toes"],
- ["run up and down some stairs", "find medicine or supplements", "watch a documentary", "find cooking oil", "make salt water", "find a single sock", "turn on some lights", "find a ball", "roll your eyes"],
- ["get a bottle of red bull", "search up bitcoin", "take a shower", "write something on a calendar", "get a stuffed animal", "sanitize your hands", "put a book into a back pack", "find a phone", "put a coin into a wallet"],
- ["touch a figurine", "fill a bottle up with water", "play a note on a piano", "draw a digital art", "fold a paper air plane", "bounce a basketball", "spin your ankles 10 times", "find the nearest McDonald's", "print a blank page"],
- ["find an electricity outlet", "write a sentence", "look at the clouds", "find a dead tree branch", "touch soap", "find a reciept", "build some legos", "read Harry Potter books", "mop the floor"]];
- 
+                items = [['Do 10 jumping jacks', 'Find a dog', 'Find a watch', 'Find an old coin', 'Budget your money', 'Do a quick jog', 'Take a deep breathe', 'Eat some snacks', 'Find a green vegetable'], 
+                         ['Draw a stickman', 'Listen to music', 'Watch a streamer', 'Search for a leonardo dicaprio movie', 'Play a game of chess', 'Talk with your family', 'Play a family game', 'Find some cards', "Solve a rubik's cube"], 
+                         ['Learn a new skill', 'Experiment with different spices', 'Drink a cup of water', 'Write down your dreams', 'Eat a piece of chocolate', 'Make a toothpick figure', 'Read a book', 'Find a log', 'Make a snowball'], 
+                         ['Read about igloos', 'Watch an nba game', 'Message a friend', 'Get some sun light', 'Jump up and down 5 times', 'Join a type racer game', 'Write a cursive letter', 'What is 11 + 16', 'Find a nutrition label'], 
+                         ['Complete a jigsaw puzzle', 'Play a brain teaser', 'Write down gift ideas', 'Learn about wellness', 'Wash your hands', 'Do something creative', 'Watch a pewdiepie youtube video', 'Message your shoulders', 'Relax your toes'], 
+                         ['Run up and down some stairs', 'Find medicine or supplements', 'Watch a documentary', 'Find cooking oil', 'Make salt water', 'Find a single sock', 'Turn on some lights', 'Find a ball', 'Roll your eyes'], 
+                         ['Get a bottle of red.png bull', 'Search up bitcoin', 'Take a shower', 'Write something on a calendar', 'Get a stuffed animal', 'Sanitize your hands', 'Put a book into a back pack', 'Find a phone', 'Put a coin into a wallet'], 
+                         ['Touch a figurine', 'Fill a bottle up with water', 'Play a note on a piano', 'Draw a digital art', 'Fold a paper air plane', 'Bounce a basketball', 'Spin your ankles 10 times', "Find the nearest mcdonald's", 'Print a blank page'], 
+                         ['Find an electricity outlet', 'Write a sentence', 'Look at the clouds', 'Find a dead tree branch', 'Touch soap', 'Find a reciept', 'Build some legos', 'Read harry potter books', 'Mop the floor']]
+
                 whatrow = 0;
                 whatcol = 0;
                 function change(row, col){
