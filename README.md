@@ -28,4 +28,4 @@ We compiled a database of the different simple tasks that we wanted to include. 
 - Allow users to edit/input their own tasks
 
 ## Demo Video
-[Hunt for the Art - Demo Video]{https://youtu.be/neMNC7yN4cE)
+[Hunt for the Art - Demo Video](https://youtu.be/neMNC7yN4cE)
