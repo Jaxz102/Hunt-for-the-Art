@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Wellness</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <style>
+            body{
+                background-image: url(../static/background.jpg);
+                background-position: center;
+                background-size: cover;
+
+            }
+            .container{
+                background-color: transparent;
+                text-align: center;
+                float: left;
+                height: 90%;
+                width: 45%;
+                margin-left: 50px;
+            }
+            .col{
+                /* outline: 1px solid grey; */
+                aspect-ratio: 1/1;
+                margin: 1px;
+                border: none;
+                background-position: center;
+                opacity: 80%;
+            }
+
+            .col p{
+                margin: auto;
+                font-size: 25px;
+                color: black;
+                margin-top: 40%;
+                
+            }
+            .col:hover{
+                background-color: azure;
+            }
+            .side{
+                float: right;
+                margin-right: 100px;
+                width: 40%;
+                background-color: rgba(255, 255, 255, 0.5);
+                margin-top: 5%;
+            }
+            #box00{
+                background-image: url("../static/{{  colour00 }}");
+                
+            }
+            #box01{
+                background-image: url("../static/{{  colour01 }}");
+            }
+            #box02{
+                background-image: url("../static/{{  colour02 }}");
+            }
+            #box03{
+                background-image: url("../static/{{  colour03 }}");
+            }
+            #box04{
+                background-image: url("../static/{{  colour04 }}");
+            }
+            #box05{
+                background-image: url("../static/{{  colour05 }}");
+            }
+            #box06{
+                background-image: url("../static/{{  colour06 }}");
+            }
+            #box07{
+                background-image: url("../static/{{  colour07 }}");
+            }
+            #box08{
+                background-image: url("../static/{{  colour08 }}");
+            }
+            #box10{
+                background-image: url("../static/{{  colour10 }}");
+            }
+            #box11{
+                background-image: url("../static/{{  colour11 }}");
+            }
+            #box12{
+                background-image: url("../static/{{  colour12 }}");
+            }
+            #box13{
+                background-image: url("../static/{{  colour13 }}");
+            }
+            #box14{
+                background-image: url("../static/{{  colour14 }}");
+            }
+            #box15{
+                background-image: url("../static/{{  colour15 }}");
+            }
+            #box16{
+                background-image: url("../static/{{  colour16 }}");
+            }
+            #box17{
+                background-image: url("../static/{{  colour17 }}");
+            }
+            #box18{
+                background-image: url("../static/{{  colour18 }}");
+            }
+            #box20{
+                background-image: url("../static/{{  colour20 }}");
+            }
+            #box21{
+                background-image: url("../static/{{  colour21 }}");
+            }
+            #box22{
+                background-image: url("../static/{{  colour22 }}");
+            }
+            #box23{
+                background-image: url("../static/{{  colour23 }}");
+            }
+            #box24{
+                background-image: url("../static/{{  colour24 }}");
+            }
+            #box25{
+                background-image: url("../static/{{  colour25 }}");
+            }
+            #box26{
+                background-image: url("../static/{{  colour26 }}");
+            }
+            #box27{
+                background-image: url("../static/{{  colour27 }}");
+            }
+            #box28{
+                background-image: url("../static/{{  colour28 }}");
+            }
+            #box30{
+                background-image: url("../static/{{  colour30 }}");
+            }
+            #box31{
+                background-image: url("../static/{{  colour31 }}");
+            }
+            #box32{
+                background-image: url("../static/{{  colour32 }}");
+            }
+            #box33{
+                background-image: url("../static/{{  colour33 }}");
+            }
+            #box34{
+                background-image: url("../static/{{  colour34 }}");
+            }
+            #box35{
+                background-image: url("../static/{{  colour35 }}");
+            }
+            #box36{
+                background-image: url("../static/{{  colour36 }}");
+            }
+            #box37{
+                background-image: url("../static/{{  colour37 }}");
+            }
+            #box38{
+                background-image: url("../static/{{  colour38 }}");
+            }
+            #box40{
+                background-image: url("../static/{{  colour40 }}");
+            }
+            #box41{
+                background-image: url("../static/{{  colour41 }}");
+            }
+            #box42{
+                background-image: url("../static/{{  colour42 }}");
+            }
+            #box43{
+                background-image: url("../static/{{  colour43 }}");
+            }
+            #box44{
+                background-image: url("../static/{{  colour44 }}");
+            }
+            #box45{
+                background-image: url("../static/{{  colour45 }}");
+            }
+            #box46{
+                background-image: url("../static/{{  colour46 }}");
+            }
+            #box47{
+                background-image: url("../static/{{  colour47 }}");
+            }
+            #box48{
+                background-image: url("../static/{{  colour48 }}");
+            }
+            #box50{
+                background-image: url("../static/{{  colour50 }}");
+            }
+            #box51{
+                background-image: url("../static/{{  colour51 }}");
+            }
+            #box52{
+                background-image: url("../static/{{  colour52 }}");
+            }
+            #box53{
+                background-image: url("../static/{{  colour53 }}");
+            }
+            #box54{
+                background-image: url("../static/{{  colour54 }}");
+            }
+            #box55{
+                background-image: url("../static/{{  colour55 }}");
+            }
+            #box56{
+                background-image: url("../static/{{  colour56 }}");
+            }
+            #box57{
+                background-image: url("../static/{{  colour57 }}");
+            }
+            #box58{
+                background-image: url("../static/{{  colour58 }}");
+            }
+            #box60{
+                background-image: url("../static/{{  colour60 }}");
+            }
+            #box61{
+                background-image: url("../static/{{  colour61 }}");
+            }
+            #box62{
+                background-image: url("../static/{{  colour62 }}");
+            }
+            #box63{
+                background-image: url("../static/{{  colour63 }}");
+            }
+            #box64{
+                background-image: url("../static/{{  colour64 }}");
+            }
+            #box65{
+                background-image: url("../static/{{  colour65 }}");
+            }
+            #box66{
+                background-image: url("../static/{{  colour66 }}");
+            }
+            #box67{
+                background-image: url("../static/{{  colour67 }}");
+            }
+            #box68{
+                background-image: url("../static/{{  colour68 }}");
+            }
+            #box70{
+                background-image: url("../static/{{  colour70 }}");
+            }
+            #box71{
+                background-image: url("../static/{{  colour71 }}");
+            }
+            #box72{
+                background-image: url("../static/{{  colour72 }}");
+            }
+            #box73{
+                background-image: url("../static/{{  colour73 }}");
+            }
+            #box74{
+                background-image: url("../static/{{  colour74 }}");
+            }
+            #box75{
+                background-image: url("../static/{{  colour75 }}");
+            }
+            #box76{
+                background-image: url("../static/{{  colour76 }}");
+            }
+            #box77{
+                background-image: url("../static/{{  colour77 }}");
+            }
+            #box78{
+                background-image: url("../static/{{  colour78 }}");
+            }
+            #box80{
+                background-image: url("../static/{{  colour80 }}");
+            }
+            #box81{
+                background-image: url("../static/{{  colour81 }}");
+            }
+            #box82{
+                background-image: url("../static/{{  colour82 }}");
+            }
+            #box83{
+                background-image: url("../static/{{  colour83 }}");
+            }
+            #box84{
+                background-image: url("../static/{{  colour84 }}");
+            }
+            #box85{
+                background-image: url("../static/{{  colour85 }}");
+            }
+            #box86{
+                background-image: url("../static/{{  colour86 }}");
+            }
+            #box87{
+                background-image: url("../static/{{  colour87 }}");
+            }
+            #box88{
+                background-image: url("../static/{{  colour88 }}");
+            }
+            button{
+                width: 40%;
+                outline: none;
+                border: none;
+
+            }
+            form{
+                width: 100%;
+                margin: auto;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container mt-4">
+            <div class="row">
+                <div id="box00" class="col" onclick="change(0, 0)"></div>
+                <div id="box01" class="col" onclick="change(0, 1)"></div>
+                <div id="box02" class="col" onclick="change(0, 2)"></div>
+                <div id="box03" class="col" onclick="change(0, 3)"></div>
+                <div id="box04" class="col" onclick="change(0, 4)"></div>
+                <div id="box05" class="col" onclick="change(0, 5)"></div>
+                <div id="box06" class="col" onclick="change(0, 6)"></div>
+                <div id="box07" class="col" onclick="change(0, 7)"></div>
+                <div id="box08" class="col" onclick="change(0, 8)"></div>
+            </div>
+            <div class="row">
+                <div id="box10" class="col" onclick="change(1, 0)"></div>
+                <div id="box11" class="col" onclick="change(1, 1)"></div>
+                <div id="box12" class="col" onclick="change(1, 2)"></div>
+                <div id="box13" class="col" onclick="change(1, 3)"></div>
+                <div id="box14" class="col" onclick="change(1, 4)"></div>
+                <div id="box15" class="col" onclick="change(1, 5)"></div>
+                <div id="box16" class="col" onclick="change(1, 6)"></div>
+                <div id="box17" class="col" onclick="change(1, 7)"></div>
+                <div id="box18" class="col" onclick="change(1, 8)"></div>
+            </div>
+            <div class="row">
+                <div id="box20" class="col" onclick="change(2, 0)"></div>
+                <div id="box21" class="col" onclick="change(2, 1)"></div>
+                <div id="box22" class="col" onclick="change(2, 2)"></div>
+                <div id="box23" class="col" onclick="change(2, 3)"></div>
+                <div id="box24" class="col" onclick="change(2, 4)"></div>
+                <div id="box25" class="col" onclick="change(2, 5)"></div>
+                <div id="box26" class="col" onclick="change(2, 6)"></div>
+                <div id="box27" class="col" onclick="change(2, 7)"></div>
+                <div id="box28" class="col" onclick="change(2, 8)"></div>
+            </div>
+            <div class="row">
+                <div id="box30" class="col" onclick="change(3, 0)"></div>
+                <div id="box31" class="col" onclick="change(3, 1)"></div>
+                <div id="box32" class="col" onclick="change(3, 2)"></div>
+                <div id="box33" class="col" onclick="change(3, 3)"></div>
+                <div id="box34" class="col" onclick="change(3, 4)"></div>
+                <div id="box35" class="col" onclick="change(3, 5)"></div>
+                <div id="box36" class="col" onclick="change(3, 6)"></div>
+                <div id="box37" class="col" onclick="change(3, 7)"></div>
+                <div id="box38" class="col" onclick="change(3, 8)"></div>
+            </div>
+            <div class="row">
+                <div id="box40" class="col" onclick="change(4, 0)"></div>
+                <div id="box41" class="col" onclick="change(4, 1)"></div>
+                <div id="box42" class="col" onclick="change(4, 2)"></div>
+                <div id="box43" class="col" onclick="change(4, 3)"></div>
+                <div id="box44" class="col" onclick="change(4, 4)"></div>
+                <div id="box45" class="col" onclick="change(4, 5)"></div>
+                <div id="box46" class="col" onclick="change(4, 6)"></div>
+                <div id="box47" class="col" onclick="change(4, 7)"></div>
+                <div id="box48" class="col" onclick="change(4, 8)"></div>
+            </div>
+            <div class="row">
+                <div id="box50" class="col" onclick="change(5, 0)"></div>
+                <div id="box51" class="col" onclick="change(5, 1)"></div>
+                <div id="box52" class="col" onclick="change(5, 2)"></div>
+                <div id="box53" class="col" onclick="change(5, 3)"></div>
+                <div id="box54" class="col" onclick="change(5, 4)"></div>
+                <div id="box55" class="col" onclick="change(5, 5)"></div>
+                <div id="box56" class="col" onclick="change(5, 6)"></div>
+                <div id="box57" class="col" onclick="change(5, 7)"></div>
+                <div id="box58" class="col" onclick="change(5, 8)"></div>
+            </div>
+            <div class="row">
+                <div id="box60" class="col" onclick="change(6, 0)"></div>
+                <div id="box61" class="col" onclick="change(6, 1)"></div>
+                <div id="box62" class="col" onclick="change(6, 2)"></div>
+                <div id="box63" class="col" onclick="change(6, 3)"></div>
+                <div id="box64" class="col" onclick="change(6, 4)"></div>
+                <div id="box65" class="col" onclick="change(6, 5)"></div>
+                <div id="box66" class="col" onclick="change(6, 6)"></div>
+                <div id="box67" class="col" onclick="change(6, 7)"></div>
+                <div id="box68" class="col" onclick="change(6, 8)"></div>
+            </div>
+            <div class="row">
+                <div id="box70" class="col" onclick="change(7, 0)"></div>
+                <div id="box71" class="col" onclick="change(7, 1)"></div>
+                <div id="box72" class="col" onclick="change(7, 2)"></div>
+                <div id="box73" class="col" onclick="change(7, 3)"></div>
+                <div id="box74" class="col" onclick="change(7, 4)"></div>
+                <div id="box75" class="col" onclick="change(7, 5)"></div>
+                <div id="box76" class="col" onclick="change(7, 6)"></div>
+                <div id="box77" class="col" onclick="change(7, 7)"></div>
+                <div id="box78" class="col" onclick="change(7, 8)"></div>
+            </div>
+            <div class="row">
+                <div id="box80" class="col" onclick="change(8, 0)"></div>
+                <div id="box81" class="col" onclick="change(8, 1)"></div>
+                <div id="box82" class="col" onclick="change(8, 2)"></div>
+                <div id="box83" class="col" onclick="change(8, 3)"></div>
+                <div id="box84" class="col" onclick="change(8, 4)"></div>
+                <div id="box85" class="col" onclick="change(8, 5)"></div>
+                <div id="box86" class="col" onclick="change(8, 6)"></div>
+                <div id="box87" class="col" onclick="change(8, 7)"></div>
+                <div id="box88" class="col" onclick="change(8, 8)"></div>
+            </div>
+        </div>
+            <div class="side">
+                <h2 class="mt-5 fs-1 text-center">Task</h2>
+                <p id = "description" class="text-center fs-3">{{  description  }}</p>
+                <form action="/" method="post" name="name"> <!--action="/" method="post" name="name"-->
+                    <button id="done" type="submit" name="content" value="0 0 True" class="m-3 btn btn-lg btn-danger text-center">Done</button> <!-- type="submit" name="content" -->
+                    <button id="notdone" type="submit" name="content" value="0 0 False" class="m-3 btn btn-lg btn-danger text-center">Not Done</button>
+                    <div class="mt-6 text-center">
+                        <button id="reveal" type="submit" name="content" value="0 0 Complete" class="m-3 btn btn-lg btn-light text-center">Reveal Image</button>
+                        <button id="reset" type="submit" name="content" value="0 0 Undo" class="m-3 btn btn-lg btn-light text-center">Reset</button>
+                    </div>
+                </form>
+            </div>
+            
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+            <script>
+                var done = document.getElementById("done");
+                var notdone = document.getElementById("notdone");
+                var desc = document.getElementById("description");
+                var colouruse = document.getElementById("secret");
+                
+                items = [["do 10 jumping jacks", "find a dog", "find a watch", "find an old coin", "budget your money", "do a quick jog", "take a deep breathe", "eat some snacks", "find a green vegetable"], 
+ ["draw a stickman", "listen to music", "watch a streamer", "search for a Leonardo DiCaprio movie", "play a game of chess", "talk with your family", "play a family game", "find some cards", "solve a rubik's cube"],
+ ["learn a new skill", "experiment with different spices", "drink a cup of water", "write down your dreams", "eat a piece of chocolate", "make a toothpick figure", "read a book", "find a log", "make a snowball"],
+ ["read about igloos", "watch an NBA game", "message a friend", "get some sun light", "jump up and down 5 times", "join a type racer game", "write a cursive letter", "what is 11 + 16", "find a nutrition label"],
+ ["complete a jigsaw puzzle", "play a brain teaser", "write down gift ideas", "learn about wellness", "wash your hands", "do something creative", "watch a PewDiePie YouTube video", "message your shoulders", "relax your toes"],
+ ["run up and down some stairs", "find medicine or supplements", "watch a documentary", "find cooking oil", "make salt water", "find a single sock", "turn on some lights", "find a ball", "roll your eyes"],
+ ["get a bottle of red bull", "search up bitcoin", "take a shower", "write something on a calendar", "get a stuffed animal", "sanitize your hands", "put a book into a back pack", "find a phone", "put a coin into a wallet"],
+ ["touch a figurine", "fill a bottle up with water", "play a note on a piano", "draw a digital art", "fold a paper air plane", "bounce a basketball", "spin your ankles 10 times", "find the nearest McDonald's", "print a blank page"],
+ ["find an electricity outlet", "write a sentence", "look at the clouds", "find a dead tree branch", "touch soap", "find a reciept", "build some legos", "read Harry Potter books", "mop the floor"]];
+ 
+                whatrow = 0;
+                whatcol = 0;
+                function change(row, col){
+                    whatrow = row;
+                    whatcol = col;
+                    done.value = row + " " + col + " True";
+                    notdone.value = row + " " + col + " False";
+                    desc.innerHTML = items[row][col]
+                }
+            </script>
+    </body>
+</html>
