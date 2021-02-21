@@ -27,10 +27,9 @@ We compiled a database of the different simple tasks that we wanted to include. 
 - Have cells that aren't square-based (ie. Have trianglar and irregular shapes)
 - Allow users to edit/input their own tasks
 
+## Demo Video
+
 ## Built By:
 - Ryan Lam
 - Jax Wang
 - Ming Zhang
-
-
-## References
