@@ -29,3 +29,4 @@ We compiled a database of the different simple tasks that we wanted to include. 
 
 ## Demo Video
 [Hunt for the Art - Demo Video](https://youtu.be/neMNC7yN4cE)
+
